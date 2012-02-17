@@ -1,0 +1,197 @@
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:32:19 
+Fri Jan 27 00:32:19 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:32:19 
+Fri Jan 27 00:32:19 [initandlisten] MongoDB starting : pid=91936 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:32:19 [initandlisten] 
+Fri Jan 27 00:32:19 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:32:19 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:32:19 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:32:19 [initandlisten] 
+Fri Jan 27 00:32:19 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:32:19 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:32:19 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:32:19 [initandlisten] options: { dbpath: "data/db", fork: true, logappend: true, logpath: "data/log/mongodb.log" }
+Fri Jan 27 00:32:19 [websvr] admin web console waiting for connections on port 28017
+Fri Jan 27 00:32:19 [initandlisten] waiting for connections on port 27017
+Fri Jan 27 00:32:55 got kill or ctrl c or hup signal 2 (Interrupt), will terminate after current cmd ends
+Fri Jan 27 00:32:55 [interruptThread] now exiting
+Fri Jan 27 00:32:55 dbexit: 
+Fri Jan 27 00:32:55 [interruptThread] shutdown: going to close listening sockets...
+Fri Jan 27 00:32:55 [interruptThread] closing listening socket: 5
+Fri Jan 27 00:32:55 [interruptThread] closing listening socket: 6
+Fri Jan 27 00:32:55 [interruptThread] closing listening socket: 7
+Fri Jan 27 00:32:55 [interruptThread] removing socket file: /tmp/mongodb-27017.sock
+Fri Jan 27 00:32:55 [interruptThread] shutdown: going to flush diaglog...
+Fri Jan 27 00:32:55 [interruptThread] shutdown: going to close sockets...
+Fri Jan 27 00:32:55 [interruptThread] shutdown: waiting for fs preallocator...
+Fri Jan 27 00:32:55 [interruptThread] shutdown: closing all files...
+Fri Jan 27 00:32:55 [interruptThread] closeAllFiles() finished
+Fri Jan 27 00:32:55 [interruptThread] shutdown: removing fs lock...
+Fri Jan 27 00:32:55 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:33:12 
+Fri Jan 27 00:33:12 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:33:12 
+Fri Jan 27 00:33:12 [initandlisten] MongoDB starting : pid=91941 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:33:12 [initandlisten] 
+Fri Jan 27 00:33:12 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:33:12 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:33:12 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:33:12 [initandlisten] 
+Fri Jan 27 00:33:12 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:33:12 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:33:12 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:33:12 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Fri Jan 27 00:33:12 [websvr] admin web console waiting for connections on port 28017
+Fri Jan 27 00:33:12 [initandlisten] waiting for connections on port 27017
+Fri Jan 27 00:33:12 [initandlisten] connection accepted from 127.0.0.1:64832 #1
+Fri Jan 27 00:33:12 [conn1] CMD: drop mydb.test
+Fri Jan 27 00:33:12 [conn1] build index mydb.test { _id: 1 }
+Fri Jan 27 00:33:12 [conn1] build index done 0 records 0 secs
+Fri Jan 27 00:33:12 [conn1] end connection 127.0.0.1:64832
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:33:46 
+Fri Jan 27 00:33:46 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:33:46 
+Fri Jan 27 00:33:46 [initandlisten] MongoDB starting : pid=91955 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:33:46 [initandlisten] 
+Fri Jan 27 00:33:46 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:33:46 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:33:46 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:33:46 [initandlisten] 
+Fri Jan 27 00:33:46 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:33:46 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:33:46 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:33:46 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Fri Jan 27 00:33:46 [initandlisten] exception in initAndListen: 10310 Unable to acquire lock for lockfilepath: /Users/kel31710/NetBeansProjects/Mongo/./data/db/mongod.lock, terminating
+Fri Jan 27 00:33:46 dbexit: 
+Fri Jan 27 00:33:46 [initandlisten] shutdown: going to close listening sockets...
+Fri Jan 27 00:33:46 [initandlisten] shutdown: going to flush diaglog...
+Fri Jan 27 00:33:46 [initandlisten] shutdown: going to close sockets...
+Fri Jan 27 00:33:46 [initandlisten] shutdown: waiting for fs preallocator...
+Fri Jan 27 00:33:46 [initandlisten] shutdown: closing all files...
+Fri Jan 27 00:33:46 [initandlisten] closeAllFiles() finished
+Fri Jan 27 00:33:46 dbexit: really exiting now
+Fri Jan 27 00:33:46 [initandlisten] connection accepted from 127.0.0.1:64837 #2
+Fri Jan 27 00:33:46 [conn2] CMD: drop mydb.test
+Fri Jan 27 00:33:46 [conn2] build index mydb.test { _id: 1 }
+Fri Jan 27 00:33:46 [conn2] build index done 0 records 0 secs
+Fri Jan 27 00:33:46 [conn2] end connection 127.0.0.1:64837
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:33:55 
+Fri Jan 27 00:33:55 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:33:55 
+Fri Jan 27 00:33:55 [initandlisten] MongoDB starting : pid=91959 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:33:55 [initandlisten] 
+Fri Jan 27 00:33:55 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:33:55 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:33:55 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:33:55 [initandlisten] 
+Fri Jan 27 00:33:55 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:33:55 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:33:55 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:33:55 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Fri Jan 27 00:33:55 [initandlisten] exception in initAndListen: 10310 Unable to acquire lock for lockfilepath: /Users/kel31710/NetBeansProjects/Mongo/./data/db/mongod.lock, terminating
+Fri Jan 27 00:33:55 dbexit: 
+Fri Jan 27 00:33:55 [initandlisten] shutdown: going to close listening sockets...
+Fri Jan 27 00:33:55 [initandlisten] shutdown: going to flush diaglog...
+Fri Jan 27 00:33:55 [initandlisten] shutdown: going to close sockets...
+Fri Jan 27 00:33:55 [initandlisten] shutdown: waiting for fs preallocator...
+Fri Jan 27 00:33:55 [initandlisten] shutdown: closing all files...
+Fri Jan 27 00:33:55 [initandlisten] closeAllFiles() finished
+Fri Jan 27 00:33:55 dbexit: really exiting now
+Fri Jan 27 00:33:55 [initandlisten] connection accepted from 127.0.0.1:64841 #3
+Fri Jan 27 00:33:55 [conn3] CMD: drop mydb.test
+Fri Jan 27 00:33:55 [conn3] build index mydb.test { _id: 1 }
+Fri Jan 27 00:33:55 [conn3] build index done 0 records 0 secs
+Fri Jan 27 00:33:55 [conn3] end connection 127.0.0.1:64841
+Fri Jan 27 00:34:12 [clientcursormon] mem (MB) res:19 virt:644 mapped:32
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:36:48 
+Fri Jan 27 00:36:48 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:36:48 
+Fri Jan 27 00:36:48 [initandlisten] MongoDB starting : pid=91965 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:36:48 [initandlisten] 
+Fri Jan 27 00:36:48 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:36:48 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:36:48 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:36:48 [initandlisten] 
+Fri Jan 27 00:36:48 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:36:48 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:36:48 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:36:48 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Fri Jan 27 00:36:48 [initandlisten] exception in initAndListen: 10310 Unable to acquire lock for lockfilepath: /Users/kel31710/NetBeansProjects/Mongo/./data/db/mongod.lock, terminating
+Fri Jan 27 00:36:48 dbexit: 
+Fri Jan 27 00:36:48 [initandlisten] shutdown: going to close listening sockets...
+Fri Jan 27 00:36:48 [initandlisten] shutdown: going to flush diaglog...
+Fri Jan 27 00:36:48 [initandlisten] shutdown: going to close sockets...
+Fri Jan 27 00:36:48 [initandlisten] shutdown: waiting for fs preallocator...
+Fri Jan 27 00:36:48 [initandlisten] shutdown: closing all files...
+Fri Jan 27 00:36:48 [initandlisten] closeAllFiles() finished
+Fri Jan 27 00:36:48 dbexit: really exiting now
+Fri Jan 27 00:37:20 [initandlisten] connection accepted from 127.0.0.1:64876 #4
+Fri Jan 27 00:37:20 [conn4] CMD: drop mydb.test
+Fri Jan 27 00:37:20 [conn4] build index mydb.test { _id: 1 }
+Fri Jan 27 00:37:20 [conn4] build index done 0 records 0 secs
+Fri Jan 27 00:37:20 [conn4] end connection 127.0.0.1:64876
+
+
+***** SERVER RESTARTED *****
+
+
+Fri Jan 27 00:39:07 
+Fri Jan 27 00:39:07 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Fri Jan 27 00:39:07 
+Fri Jan 27 00:39:07 [initandlisten] MongoDB starting : pid=92009 port=27017 dbpath=/Users/kel31710/NetBeansProjects/Mongo/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Fri Jan 27 00:39:07 [initandlisten] 
+Fri Jan 27 00:39:07 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Fri Jan 27 00:39:07 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Fri Jan 27 00:39:07 [initandlisten] **       with --journal, the limit is lower
+Fri Jan 27 00:39:07 [initandlisten] 
+Fri Jan 27 00:39:07 [initandlisten] db version v2.0.2, pdfile version 4.5
+Fri Jan 27 00:39:07 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Fri Jan 27 00:39:07 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Fri Jan 27 00:39:07 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Fri Jan 27 00:39:07 [websvr] admin web console waiting for connections on port 28017
+Fri Jan 27 00:39:07 [initandlisten] waiting for connections on port 27017
+Fri Jan 27 00:39:07 [initandlisten] connection accepted from 127.0.0.1:64881 #1
+Fri Jan 27 00:39:08 [conn1] CMD: drop mydb.test
+Fri Jan 27 00:39:08 [conn1] build index mydb.test { _id: 1 }
+Fri Jan 27 00:39:08 [conn1] build index done 0 records 0 secs
+Fri Jan 27 00:39:08 [conn1] end connection 127.0.0.1:64881
+Fri Jan 27 00:40:04 got kill or ctrl c or hup signal 15 (Terminated), will terminate after current cmd ends
+Fri Jan 27 00:40:04 [interruptThread] now exiting
+Fri Jan 27 00:40:04 dbexit: 
+Fri Jan 27 00:40:04 [interruptThread] shutdown: going to close listening sockets...
+Fri Jan 27 00:40:04 [interruptThread] closing listening socket: 5
+Fri Jan 27 00:40:04 [interruptThread] closing listening socket: 6
+Fri Jan 27 00:40:04 [interruptThread] closing listening socket: 7
+Fri Jan 27 00:40:04 [interruptThread] removing socket file: /tmp/mongodb-27017.sock
+Fri Jan 27 00:40:05 [interruptThread] shutdown: going to flush diaglog...
+Fri Jan 27 00:40:05 [interruptThread] shutdown: going to close sockets...
+Fri Jan 27 00:40:05 [interruptThread] shutdown: waiting for fs preallocator...
+Fri Jan 27 00:40:05 [interruptThread] shutdown: closing all files...
+Fri Jan 27 00:40:05 [interruptThread] closeAllFiles() finished
+Fri Jan 27 00:40:05 [interruptThread] shutdown: removing fs lock...
+Fri Jan 27 00:40:05 dbexit: really exiting now
