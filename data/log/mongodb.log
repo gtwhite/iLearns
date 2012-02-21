@@ -195,3 +195,30 @@ Fri Jan 27 00:40:05 [interruptThread] shutdown: closing all files...
 Fri Jan 27 00:40:05 [interruptThread] closeAllFiles() finished
 Fri Jan 27 00:40:05 [interruptThread] shutdown: removing fs lock...
 Fri Jan 27 00:40:05 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Mon Feb 20 19:31:36 
+Mon Feb 20 19:31:36 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Mon Feb 20 19:31:36 
+Mon Feb 20 19:31:36 [initandlisten] MongoDB starting : pid=77499 port=27017 dbpath=/Users/kel31710/NetBeansProjects/iLearns/./data/db 32-bit host=Keith-Labans-Macbook-Pro.local
+Mon Feb 20 19:31:36 [initandlisten] 
+Mon Feb 20 19:31:36 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Mon Feb 20 19:31:36 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Mon Feb 20 19:31:36 [initandlisten] **       with --journal, the limit is lower
+Mon Feb 20 19:31:36 [initandlisten] 
+Mon Feb 20 19:31:36 [initandlisten] db version v2.0.2, pdfile version 4.5
+Mon Feb 20 19:31:36 [initandlisten] git version: 514b122d308928517f5841888ceaa4246a7f18e3
+Mon Feb 20 19:31:36 [initandlisten] build info: Darwin broadway.local 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:55:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_40
+Mon Feb 20 19:31:36 [initandlisten] options: { dbpath: "./data/db", fork: true, logappend: true, logpath: "./data/log/mongodb.log" }
+Mon Feb 20 19:31:36 [initandlisten] exception in initAndListen: 10310 Unable to acquire lock for lockfilepath: /Users/kel31710/NetBeansProjects/iLearns/./data/db/mongod.lock, terminating
+Mon Feb 20 19:31:36 dbexit: 
+Mon Feb 20 19:31:36 [initandlisten] shutdown: going to close listening sockets...
+Mon Feb 20 19:31:36 [initandlisten] shutdown: going to flush diaglog...
+Mon Feb 20 19:31:36 [initandlisten] shutdown: going to close sockets...
+Mon Feb 20 19:31:36 [initandlisten] shutdown: waiting for fs preallocator...
+Mon Feb 20 19:31:36 [initandlisten] shutdown: closing all files...
+Mon Feb 20 19:31:36 [initandlisten] closeAllFiles() finished
+Mon Feb 20 19:31:36 dbexit: really exiting now

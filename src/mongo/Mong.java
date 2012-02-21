@@ -10,6 +10,8 @@ import com.mongodb.Mongo;
 import java.io.File;
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -27,9 +29,23 @@ public class Mong {
     private void startMongod() throws IOException{
         if(isWindows()){
             String dir = new File(".").getCanonicalPath();
+            ProcessBuilder clean = new ProcessBuilder(dir + "\\bin\\mongod.exe","--repair", "--dbpath", dir+ "\\data\\db");
+            proc = clean.start();
+            try {
+                proc.waitFor();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Mong.class.getName()).log(Level.SEVERE, null, ex);
+            }
             ProcessBuilder pb = new ProcessBuilder(dir + "\\bin\\mongod.exe","--dbpath", dir+ "\\data\\db");//, "--fork", "--logpath", dir + "\\data\\log\\mongodb.log", "--logappend");   //start mongo daemon
             proc = pb.start();  
         }else{
+            ProcessBuilder clean = new ProcessBuilder("./bin/mongod","--repair", "--dbpath", "./data/db");
+            proc = clean.start();
+            try {
+                proc.waitFor();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Mong.class.getName()).log(Level.SEVERE, null, ex);
+            }
             ProcessBuilder pb = new ProcessBuilder("./bin/mongod","--dbpath", "./data/db");//, "--fork", "--logpath", "./data/log/mongodb.log", "--logappend");   //start mongo daemon
             proc = pb.start();
         }
